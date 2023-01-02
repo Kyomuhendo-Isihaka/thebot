@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bot's respone
 
-  const respone = await fetch('https://shaka-bot.onrender.com',{
+  const respone = await fetch('https://shaka-bot.onrender.com/',{
     method: 'POST',
     headers: {
       'content-Type': 'application/json'
